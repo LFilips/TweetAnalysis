@@ -1,7 +1,7 @@
 # README #
 
 
-Master's Thesis project, in order to run, there is the need of starting dataset in json format, or a sequence File with <DocumentID,DocumentText>
+Master's Thesis project, in order to run, there is the need of starting dataset in json format, or a sequence File with DocumentID,DocumentText
 
 The Class to be considered is in src/com/luca/filipponi/tweetAnalysis:
 
