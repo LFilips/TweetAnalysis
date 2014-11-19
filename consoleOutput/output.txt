@@ -1,0 +1,173 @@
+Configuration: core-default.xml, core-site.xml
+4
+4
+Inital Vector folder exist, skipping the creation of sequenceFIle
+ReadSequenceFile method, reading 30 <key,value> pair from: DatesetXasmosSequenceFile/part-r-00000
+Key class: class org.apache.hadoop.io.Text Value class: class org.apache.hadoop.io.Text
+Key: 471090241949163521 Value:! (@ Il Grillo Express) http://t.co/IGhcApYg0n
+Key: 468510884047101952 Value:! @mipiaceBarca non male: @corradoaugias con Leonardo; #Vespa con #Grillo; #Formigli con #Renzi. La televisione del terzo millennio...
+Key: 468513879895441408 Value:!!!Berlusconi!!! Mascalzone!!  como embarraste el "Giuseppe Meazza" para la final intercontinental con CAI. #Javi6reyes Fracasado
+Key: 471018281831526400 Value:!!!nworks @luigidimaio butta tutto!!!Abbiamo vinto noi!!!Vi abbiamo annichilito!!!RENZI VITTORIOSO!!!
+Key: 470821150855946240 Value:"  Elezioni, Renzi trionfa: Pd oltre il 40%, Grillo fermo al 21%, Berlusconi al 16%. Affluenza al 58,7%  " .... http://t.co/FrH60LusTF
+Key: 468471076276961281 Value:" #80euro sono l'inizio di un cambiamento radicale. Abbiamo una cattiva notizia per #amicigufi : andremo avanti!" #renzi #inpiazza
+Key: 470703027553591296 Value:" #Berlusconi ha sbagliato tutto perché ha diviso " #cicchitto #elezionieuropee @DirettaMentana
+Key: 469902599265996800 Value:" #Berlusconi: solo un voto a Forza Italia è produttivo perché solo noi possiamo difendere gli interessi del paese .."  CHI CI CREDE ANCORA?
+Key: 468836527213404163 Value:" #Electrolux , gli #80euro ... Sono tutte cose che stiamo facendo per il paese" #renzi a #BersaglioMobile
+Key: 470929367099781121 Value:" #elezionieuropee 2014": a Beppe Grillo non piace [per niente] questo elemento. :'D #vinciamopoi #beppevaiacasa
+Key: 470929218390720514 Value:" #elezionieuropee 2014": a Beppe Grillo non piace [per nulla] questo elemento. :'D #vinciamopoi #beppevaiacasa
+Key: 470866975141269504 Value:" #Enasarco, no grazie". Sull'ente serve un intervento urgente del governo fino ad arrivare al commissariamento.... http://t.co/QRWO1NsWTc
+Key: 468515162702749696 Value:" #Expo: questi non sono investimenti, che fruttano... questi sono prelievi ai danni di tutti". #PortaAporta
+Key: 471765516601008129 Value:" #ForzaItalia e' il partito di una salma" #Sgarbi #lagabbia
+Key: 471978482810253312 Value:" #ForzaItalia. Servono soldi, partito con l’acqua alla gola” . E lasciamolo affogare!
+Key: 469895189851815936 Value:" #FuoriLaMafiaDalloStato " P.zza San Giovanni #Roma #VinciamoNoi #M5S http://t.co/GidV9AItRg
+Key: 470694229376004096 Value:" #Grillo : o noi o loro! " Finalmente gli italiani hanno capito che sei un comico! #ElezioniEuropee #sconfittagrillini #godimento
+Key: 470980388853415936 Value:" #Grillo fatti giudicare dalla rete come tu fai con noi. Hai sbagliato", Guido del #M5S alla festa a @primocanale @beppe_grillo
+Key: 468869995423096833 Value:" #grillo probabilmente neanche sa che sono venuto qui in trasmissione".Corri ragazzo,prendi il motorino e inizia a corrore #BersaglioMobile
+Key: 468511238604218369 Value:" #Grillo questa e' un'intervista non un comizio " #Vespa alza la voce #GrilloinVespa
+Key: 468439866498621441 Value:" #iononvotoM5S perché il linguaggio della verità è semplice e l'Italia non vi è abituata"... #vinciamonoi #Torino http://t.co/CfQbSCuXYW
+Key: 468437550445903872 Value:" #iononvotoM5S perchè il linguaggio della verità è semplice e l'Italia non vi è abituata"... #vinciamonoi #Vespa http://t.co/4EZPTCgz9Y
+Key: 468672471529304064 Value:" #M5S #vinciamonoi
+Grandissima emozione a Torino. "Se voi non ci fate sognare noi non vi faremo dormire!" http://t.co/CPaGXu7NJ7
+Key: 468672735535976448 Value:" #M5S #vinciamonoi
+Grandissima emozione a Torino. "Se voi non ci fate sognare noi non vi faremo dormire!" http://t.co/JBdwicLmiC
+Key: 469825685973139457 Value:" #m5s non avrà i numeri per proporre inUE". #fi e #pd avevano+di 20parl.UE/cad.nei gruppi parl.più importanti.
+CHE MINCHIA HANNO COMBINATO?
+Key: 468531657872777216 Value:" #m5s non e un partito politico, è un' idea di mondo" #grillo #portaaporta
+Key: 468784291124887552 Value:" #MareNostrum deve respinge i migranti anche se sono in difficoltà" Così, #Berlusconi
+Key: 472058851798573058 Value:" #ParoleSante " 
+RT@webeconoscenza Dedicato a Marianna Madia e allo scivolo http://t.co/vB0mic59Q3
+
+#Renzi #Madia #RiformaPa
+Key: 470867845719793664 Value:" #Renzi : stasera camminerò sulle acque , ma con umiltà "
+Key: 470700332688101376 Value:" #renzi brutto cacca " (m. travaglio)
+Key: 470916443778084864 Value:" #renzi culone inchiavabile" (a. merkel, apocrifa)
+Creating the tokenized vector in TextualClustering/input/tokenized-documents
+Directory tokenizzata: TextualClustering/inputtokenized-documents
+tokenized document directory exist, skipping mapReduce
+ReadSequenceFile method, reading 100 <key,value> pair from: TextualClustering/input/tokenized-documents/part-m-00000
+Key class: class org.apache.hadoop.io.Text Value class: class org.apache.mahout.common.StringTuple
+Key: 471090241949163521 Value:[@, grillo, express]
+Key: 468510884047101952 Value:[@mipiacebarca, male, @corradoaugias, leonardo, vespa, grillo, formigli, renzi, televisione, terzo, millennio]
+Key: 468513879895441408 Value:[berlusconi, mascalzone, como, embarraste, el, giuseppe, meazza, para, final, intercontinental, cai, javi6reyes, fracasado]
+Key: 471018281831526400 Value:[nworks, @luigidimaio, butta, abbiamo, vinto, abbiamo, annichilito, renzi, vittorioso]
+Key: 470821150855946240 Value:[elezioni, renzi, trionfa, pd, oltre, 40%, grillo, fermo, 21%, berlusconi, 16%, affluenza, 58, 7%]
+Key: 468471076276961281 Value:[80euro, inizio, cambiamento, radicale, abbiamo, cattiva, notizia, amicigufi, andremo, avanti, renzi, inpiazza]
+Key: 470703027553591296 Value:[berlusconi, sbagliato, diviso, cicchitto, elezionieuropee, @direttamentana]
+Key: 469902599265996800 Value:[berlusconi, voto, forza, italia, produttivo, possiamo, difendere, interessi, paese, crede, ancora]
+Key: 468836527213404163 Value:[electrolux, 80euro, tutte, cose, stiamo, facendo, paese, renzi, bersagliomobile]
+Key: 470929367099781121 Value:[elezionieuropee, 2014, beppe, grillo, piace, niente, elemento, vinciamopoi, beppevaiacasa]
+Key: 470929218390720514 Value:[elezionieuropee, 2014, beppe, grillo, piace, nulla, elemento, vinciamopoi, beppevaiacasa]
+Key: 470866975141269504 Value:[enasarco, grazie, ente, serve, intervento, urgente, governo, fino, arrivare, commissariamento]
+Key: 468515162702749696 Value:[expo, investimenti, fruttano, prelievi, danni, portaaporta]
+Key: 471765516601008129 Value:[forzaitalia, partito, salma, sgarbi, lagabbia]
+Key: 471978482810253312 Value:[forzaitalia, servono, soldi, partito, acqua, gola, lasciamolo, affogare]
+Key: 469895189851815936 Value:[fuorilamafiadallostato, zza, san, giovanni, roma, vinciamonoi, m5s]
+Key: 470694229376004096 Value:[grillo, finalmente, italiani, capito, comico, elezionieuropee, sconfittagrillini, godimento]
+Key: 470980388853415936 Value:[grillo, fatti, giudicare, rete, sbagliato, guido, m5s, festa, @primocanale, @beppe_grillo]
+Key: 468869995423096833 Value:[grillo, probabilmente, neanche, venuto, trasmissione, corri, ragazzo, prendi, motorino, inizia, corrore, bersagliomobile]
+Key: 468511238604218369 Value:[grillo, intervista, comizio, vespa, alza, voce, grilloinvespa]
+Key: 468439866498621441 Value:[iononvotom5s, linguaggio, verità, semplice, italia, abituata, vinciamonoi, torino]
+Key: 468437550445903872 Value:[iononvotom5s, linguaggio, verità, semplice, italia, abituata, vinciamonoi, vespa]
+Key: 468672471529304064 Value:[m5s, vinciamonoi, grandissima, emozione, torino, fate, sognare, faremo, dormire]
+Key: 468672735535976448 Value:[m5s, vinciamonoi, grandissima, emozione, torino, fate, sognare, faremo, dormire]
+Key: 469825685973139457 Value:[m5s, avrà, numeri, proporre, inue, pd, avevano, 20parl, ue/cad, gruppi, parl, importanti, minchia, combinato]
+Key: 468531657872777216 Value:[m5s, partito, politico, idea, mondo, grillo, portaaporta]
+Key: 468784291124887552 Value:[marenostrum, respinge, migranti, difficoltà, berlusconi]
+Key: 472058851798573058 Value:[parolesante, rt@webeconoscenza, dedicato, marianna, madia, scivolo, renzi, madia, riformapa]
+Key: 470867845719793664 Value:[renzi, stasera, camminerò, acque, umiltà]
+Key: 470700332688101376 Value:[renzi, brutto, cacca, travaglio]
+Key: 470916443778084864 Value:[renzi, culone, inchiavabile, merkel, apocrifa]
+Key: 471039976407576576 Value:[renzi, infuriato, romani, bella, vigilia, gazebo, gazebo, @zdizoro]
+Key: 470684088647831552 Value:[renzi, cannibalizzato, suoi, alleati, governo, travaglio, elezionieuropee, tgla7, @direttamentana]
+Key: 471726487998300160 Value:[renzi, grave, problema, rispondere, artigiani, nordest, precari, rodota]
+Key: 470675872513810432 Value:[renzi, mesi, governato, campagna, elettorale, cazzullo, @direttamentana]
+Key: 470952626226749441 Value:[renzi, trascina, vittoria, pd, m5s, troppo, facile, vincere, 40, 20]
+Key: 469928629854822400 Value:[vinciamonoi, vepiacerebbe]
+Key: 470701379913539585 Value:[vinciamonoi, cit]
+Key: 470844917745713152 Value:[vinciamonoi, pernacchia, vinciamopoi]
+Key: 468814820457062400 Value:[u, vòi, ca, rici, curnutu, sceccu, berlusconi, grillo]
+Key: 468504417873186816 Value:[19, miliardi, problema, appunto, portaaporta]
+Key: 472287073639337984 Value:[@adnkronos, renzi, secondigliano, lotta, camorra, parte, scuole, giubbotto, antiproiettile, insegnanti]
+Key: 469177339419844609 Value:[@berlusconi, capo, unico, movimento, politico, metta, centro, casalingue]
+Key: 470865006696099840 Value:[@fornario, berlusconi, votare, renzi, vinto, stesso]
+Key: 469775283688861696 Value:[@iostoconlasposa, racconto, valeria, verdolini, immigrazione, politica]
+Key: 468723865875914753 Value:[@luigidimaio, @pietrolazzara, tic, tac, tic, tac, ore, contate, sanno, vinciamonoi]
+Key: 471177473934503936 Value:[bologna, m5s, 19, 15, cento, bagarre, avanticosi, continuate, prendere, culo, elettori, andrete, sempre, peggio]
+Key: 468482430924750848 Value:[matteo, renzi, frega, nulla, farinetti, scusami, crede, nessuno, piazzapulita]
+Key: 470670376331407360 Value:[abbiamo, lavoro, massimo, rigore, masia, tgla7, elezionieuropee, @direttamentana]
+Key: 470687423882854400 Value:[abbiamo, sondaggio, siamo, 96%, nostra, marcia, trionfale, cit, vinciamonoi]
+Key: 471208122057756672 Value:[abbiamo, perso, stata, sconfitta, vinciamopoi, detta, @grillo, @bersani, forse, @crozza, @di, battista]
+Key: 468511006306881536 Value:[abbiamo, software, abbiamo, software, minacce, portaaporta, grillo, m5s]
+Key: 470823732949549056 Value:[abbiamo, vinto, 1000, punti, schiantare, ridere, siamo, primi, renzi]
+Key: 469887679086465024 Value:[apriremo, ue, scatola, wustel, minchia, compra, wustell, scatola, grillo, facce, tarza, roma]
+Key: 470716476522266624 Value:[aspettiamo, domani, m5s, interiorizzato, vinciamopoi]
+Key: 470687962121121792 Value:[aspettiamo, risultati, finali, proiezioni, confermeranno, sarà, grande, risultato, pd, vorrei]
+Key: 468515455943319552 Value:[bevi, bagnare, rilassati, manca, mettiti, pannolone, grandissimo, show, portaaporta]
+Key: 471041586911260673 Value:[stato, effetto, paura, qualcuno, spaventato, grillo, gazebo]
+Key: 470948413081542657 Value:[cagna, calore, tappo, bocca, pagata, pd, minacce, morte, persino]
+Key: 470892673566773248 Value:[cazzo, paese, merda, venduti, 80euro, ah, quindi, andato, votare, scema, ah, beh, giusto]
+Key: 469914907761459200 Value:[chiudiamo, lunga, campagna, pubblicitaria, berlusconi, milano, sbaglie]
+Key: 470688126881763328 Value:[manca, facciano, trenino, sede, pd, grasserisate, mentana, @direttamentana, elezionieuropee]
+Key: 471025312982380545 Value:[tempesta, abbiamo, incontrato, andata, bene, ottima, base, costruire, futuro, @angealfa, portaaporta]
+Key: 468515550361309184 Value:[dentiere, gratta, vinci, portaabeppe, grilloinvespa, grillo]
+Key: 468511471220305920 Value:[vespa, finalmente, grillo, spiega, strilla, stronzate, interessante, ascoltare, —, soddisfatto]
+Key: 469959156049666048 Value:[lavoro, beh, ovvio, fescion, bloggher, muorimale]
+Key: 470846352243822592 Value:[morto, re, viva, renzi, suona, bene]
+Key: 470837689659707392 Value:[elezioni, europee, 2014, matteo, renzi, stravince, buon, lavoro, confidiamo, italiani, abbiano, beneficio]
+Key: 468751363510648833 Value:[azzurri, lavoro, preparare, mondiale, nazionale, italy, italia, vivoazzurro]
+Key: 468696578115788800 Value:[grillo, conosciuto, mondo, spettacolo, perche, gran, parte, suoi, pagamenti, avvenivano]
+Key: 469872117501403136 Value:[grillo, pericoloso, hitler, cit, berlusconi, barbaradurso, pomeriggio5, noncelapossofare]
+Key: 470961279000379392 Value:[vinto, governo, sosteniamo, casini, ancora, volta, gode, vittorie, altrui, succedere, farli, dimettere]
+Key: 468507521368752128 Value:[mancamento, iva, mancamento, abbiamo, portaaporta]
+Key: 468701847222775808 Value:[splendida, politica, estera, novabeh, lariachetira]
+Key: 468873365361790976 Value:[incontrato, berlusconi, dietro, quinte, voglio, infierire, certa, impressione]
+Key: 468777859990159360 Value:[@bravimabasta, pensare, grillo, cacciò, senatore, partecipò, talk, show, anno]
+Key: 469907751909728257 Value:[notav, difendono, propria, terra, ferdinando, imposimato, vinciamonoi, m5s, ep2014]
+Key: 468466329717309443 Value:[ave, dream, avere, faccia, faccia, tv, vuole, giuseppe, piero, grillo, tempo, faceva, chiamare, massimiliano]
+Key: 470484719667515392 Value:[leoni, voteranno, protesta, san, marco, avanti]
+Key: 470875146572795904 Value:[militanti, 5, stelle, attivi, pd, novità, scanzi]
+Key: 469950371222540288 Value:[sondaggi, danno, 94%]
+Key: 470835807096672256 Value:[pensionati, porta, porta, compreso, invece, farsi, dare, dentiere, berlusconi, oggi, possono, fabbricarsele, 3d]
+Key: 470692302651142145 Value:[m5s, suoi, toni, squadristi, schifato, tanto, consegnarci, renzi, qs, italiano, pd, votato, senza, parole]
+Key: 471272580415225856 Value:[m5s, fu, lenin, suoi, compagni, pope, gapon, tatticaestrategia, comunismi]
+Key: 470695551223472130 Value:[pd, post, ideologico, travaglio, elezionieuropee, @direttamentana]
+Key: 470990188450414592 Value:[pd, vogliamo, puntare, 40%, renzi, 21/10/12, intervistato, lucia, annunziata]
+Key: 470806222057525248 Value:[2014, renzi, 1994, berlusconi, ahi, ahi, ahi]
+Key: 472292655414931457 Value:[lavoro, migliore, costerà, riuscirà, meglio, jean, paul, sartre]
+Key: 469946178994724867 Value:[motore, grillismo, crisi, economica, senso, curva, trova, rettilineo, alfano, bersagliomobile]
+Key: 470630888142012416 Value:[premier, matteo, renzi, regolarmente, coda, votato, skytg24, nazione, malata]
+Key: 468517367782588417 Value:[tempo, scaduto, vespa, tempo, scaduto, dico, vieni, venerdì, piazza, roma, grillo, grilloinvespa]
+Key: 468488310382264320 Value:[discussione, nota, berlusconi, quasi, sparito, cerchiamo, farlo, tornare, be, cerchiamo, allora, piazzapulita]
+Key: 470702735177056257 Value:[paese, normale, berlusconi, avrebbe, dovuto, prendere, nemmeno, voto, travaglio, elezionieuropee, @direttamentana]
+Key: 470704293872676864 Value:[paese, normale, berlusconi, successo, doveva, prenderne, neanche]
+Key: 470610594299912192 Value:[lavoro, tenermi, vita, sai, frega, europa, unita, zencircus]
+Key: 470736696615911424 Value:[personalmente, beppe, grillo]
+Key: 468851712963657728 Value:[voglio, sindaco, movimento, 5, stelle, roberto, fonte, cittadino, candidato, sindaco, m5s, ragalna]
+Key: 471022976490827777 Value:[umilta, doti, bravo, @brunovespa, @matteorenzi, portaaporta]
+Key: 471982515788742656 Value:[linea, renzi, linea, governo, mario, monti]
+Key: 470695703661260800 Value:[pazienza, italiani, tempi, brevi, fu, berlusconi, travaglio, elezionieuropee, @direttamentana]
+Key: 470631871399743489 Value:[solita, sporca, faccenda, canzoni, donne, alcol, treni, topi, politica, morte, peccato, tom, waits]
+ INFO [main] (DictionaryVectorizer.java:175) : Creating dictionary from TextualClustering/input/tokenized-documents and saving at TextualClustering/input/wordcount
+ WARN [main] (NativeCodeLoader.java:52) : Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+ WARN [main] (JobClient.java:746) : Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+ INFO [main] (JobClient.java:1023) : Cleaning up the staging area file:/tmp/hadoop-luca/mapred/staging/luca1858800866/.staging/job_local1858800866_0001
+ERROR [main] (UserGroupInformation.java:1193) : PriviledgedActionException as:luca cause:org.apache.hadoop.mapred.FileAlreadyExistsException: Output directory TextualClustering/input/wordcount/subgrams already exists
+Exception in thread "main" org.apache.hadoop.mapred.FileAlreadyExistsException: Output directory TextualClustering/input/wordcount/subgrams already exists
+	at org.apache.hadoop.mapreduce.lib.output.FileOutputFormat.checkOutputSpecs(FileOutputFormat.java:137)
+	at org.apache.hadoop.mapred.JobClient$2.run(JobClient.java:973)
+	at org.apache.hadoop.mapred.JobClient$2.run(JobClient.java:936)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1190)
+	at org.apache.hadoop.mapred.JobClient.submitJobInternal(JobClient.java:936)
+	at org.apache.hadoop.mapreduce.Job.submit(Job.java:550)
+	at org.apache.hadoop.mapreduce.Job.waitForCompletion(Job.java:580)
+	at org.apache.mahout.vectorizer.collocations.llr.CollocDriver.generateCollocations(CollocDriver.java:236)
+	at org.apache.mahout.vectorizer.collocations.llr.CollocDriver.generateAllGrams(CollocDriver.java:187)
+	at org.apache.mahout.vectorizer.DictionaryVectorizer.createTermFrequencyVectors(DictionaryVectorizer.java:184)
+	at com.luca.filipponi.tweetAnalysis.TextualClustering.main(TextualClustering.java:254)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)

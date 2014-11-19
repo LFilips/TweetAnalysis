@@ -1,0 +1,84 @@
+<html>
+<head>
+    <title>Topic Clouds</title>
+    <svg height="60" width="1000">
+        <text x="500" y="50" font-family="Verdana" font-size="55" fill="black">
+            Top Terms
+        </text>
+    </svg>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <script src="http://d3js.org/d3.v2.min.js?2.10.0"></script>
+    <script type="text/javascript" src="d3.layout.cloud.js"></script>
+</head>
+
+<body>
+<script>
+
+
+    // wordScale=d3.scale.linear().domain([1,100,1000,10000]).range([10,20,40,80]).clamp(true);
+    // wordColor=d3.scale.linear().domain([10,20,40,80,100,150]).range(["blue","green","orange","red","yellow","black"]);
+    var fill = d3.scale.category20();
+
+
+    //d3.json("topic.json", function(topic) {
+    d3.csv("top100Word.csv", function (topic) {
+
+        d3.layout.cloud().size([1300, 680])
+//      .words([{"text":"test","size":wordScale(.01)},{"text":"bad","size":wordScale(1)}])
+                .words(topic)
+                .rotate(function () {
+                    return ~~(Math.random() * 2) * 5;
+                })
+                .fontSize(function (d) {
+                    return Math.max(8, Math.min(d.size, 48));
+                })
+                .on("end", draw)
+                .start();
+
+        function draw(words) {
+
+            viz = d3.select("body").append("svg")
+                    .attr("width", 1300)
+                    .attr("height", 680)
+                //.attr("viewBox","20 20 20 20")
+                    .append("g")
+                //.attr("style","position:relative; left:20px; top:20px;")
+                    .attr("transform", "translate(650,340)")
+                //  .attr("width", 600)
+                // .attr("height", 600)
+                    .selectAll("text")
+                    .data(words)
+                    .enter().append("text")
+                    .attr("style", "position:relative;left:50px;")
+                    .style("font-size", function (d) {
+                        return d.size + "px";
+                    })
+                    .style("fill", function (d, i) {
+                        return fill(i);
+                    })
+                    .style("opacity", .95)
+                    .attr("text-anchor", "middle")
+                    .attr("transform", function (d) {
+                        return "translate(" + [(d.x), (d.y)] + ")rotate(" + d.rotate + ")";
+                    })
+                    .text(function (d) {
+                        return d.text;
+                    });
+            /*
+             viz
+             .append("text")
+             .data([topic[0]])
+             .style("font-size", 30)
+             .style("font-weight", 900)
+             .attr("x", 100) //posizione in x e y dai bordi pagina
+             .attr("y", 40)
+             .text(function(d) { return "TOP TERM "})
+             */
+//  d3.select("#svg"+x).append("svg:text").text("Topic " + x);	
+//    viz.enter().append("svg:text").text("Topic " + x);
+
+        }
+
+    })
+
+</script>

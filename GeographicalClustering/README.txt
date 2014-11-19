@@ -1,0 +1,2 @@
+Same as readme in the textualClustering directory, but with less files beacause the GeographicalClustering.java translate directly
+the lat,long in vector from the initial mapReduce, there isn all the tf idf tokenizer ecc ecc.

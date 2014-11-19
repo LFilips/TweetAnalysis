@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+    "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg contentScriptType="text/ecmascript" width="885px"
+     xmlns:xlink="http://www.w3.org/1999/xlink" zoomAndPan="magnify"
+     contentStyleType="text/css" viewBox="-3303 -3138 3303 3138" height="841px"
+     preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+     version="1.1">
+    <g id="edges">
+        <path fill="none" stroke-width="9.407"
+              d="M -3044.008545,-2022.224121 L -227.600876,-2754.664551"
+              class="1 2" stroke-opacity="1.0" stroke="#8c669c"/>
+        <path fill="none" stroke-width="9.149"
+              d="M -3044.008545,-2022.224121 L -2444.215820,-3085.466553"
+              class="1 3" stroke-opacity="1.0" stroke="#b78e6d"/>
+        <path fill="none" stroke-width="8.793"
+              d="M -3044.008545,-2022.224121 L -506.242279,-508.329346"
+              class="1 4" stroke-opacity="1.0" stroke="#b77091"/>
+        <path fill="none" stroke-width="8.947"
+              d="M -3044.008545,-2022.224121 L -2394.172363,-480.277374"
+              class="1 5" stroke-opacity="1.0" stroke="#9c9171"/>
+        <path fill="none" stroke-width="9.411"
+              d="M -227.600876,-2754.664551 L -2444.215820,-3085.466553"
+              class="2 3" stroke-opacity="1.0" stroke="#8c8a9e"/>
+        <path fill="none" stroke-width="9.248"
+              d="M -227.600876,-2754.664551 L -506.242279,-508.329346"
+              class="2 4" stroke-opacity="1.0" stroke="#8c6cc2"/>
+        <path fill="none" stroke-width="9.44"
+              d="M -227.600876,-2754.664551 L -2394.172363,-480.277374"
+              class="2 5" stroke-opacity="1.0" stroke="#718ca2"/>
+        <path fill="none" stroke-width="8.696"
+              d="M -2444.215820,-3085.466553 L -506.242279,-508.329346"
+              class="3 4" stroke-opacity="1.0" stroke="#b79493"/>
+        <path fill="none" stroke-width="9.184"
+              d="M -2444.215820,-3085.466553 L -2394.172363,-480.277374"
+              class="3 5" stroke-opacity="1.0" stroke="#9cb474"/>
+        <path fill="none" stroke-width="9.126"
+              d="M -506.242279,-508.329346 L -2394.172363,-480.277374"
+              class="4 5" stroke-opacity="1.0" stroke="#9c9697"/>
+    </g>
+    <g id="nodes">
+        <circle fill-opacity="1.0" fill="#b76b6b" r="259.257" cx="-3044.0085"
+                class="1" cy="-2022.2241" stroke="#000000" stroke-opacity="1.0"
+                stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#6162cd" r="132.989" cx="-227.60088"
+                class="2" cy="-2754.6646" stroke="#000000" stroke-opacity="1.0"
+                stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#b7b270" r="52.827" cx="-2444.2158"
+                class="3" cy="-3085.4666" stroke="#000000" stroke-opacity="1.0"
+                stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#b776b7" r="123.901" cx="-506.24228"
+                class="4" cy="-508.32935" stroke="#000000" stroke-opacity="1.0"
+                stroke-width="1.0"/>
+        <circle fill-opacity="1.0" fill="#81b778" r="96.559" cx="-2394.1724"
+                class="5" cy="-480.27737" stroke="#000000" stroke-opacity="1.0"
+                stroke-width="1.0"/>
+    </g>
+    <g id="node-labels">
+        <text font-size="30" x="-3044.0085" y="-2015.2734" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="1">
+            Cluster 3: renzi, pd, lavoro, europee
+        </text>
+        <text font-size="30" x="-227.60088" y="-2748.1423" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="2">
+            Cluster 0: m5s, vinciamonoi
+        </text>
+        <text font-size="30" x="-2444.2158" y="-3078.5159" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="3">
+            Cluster 1: politica, europee2014, italia
+        </text>
+        <text font-size="30" x="-506.24228" y="-501.29077" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="4">
+            Cluster 4: grillo, portaaporta, vespa, renzi
+        </text>
+        <text font-size="30" x="-2394.1724" y="-473.2388" fill="#000000"
+              style="text-anchor: middle; dominant-baseline: central;"
+              font-family="Arial" class="5">
+            Cluster 2: berlusconi, beppe grillo, politico, alfano, forza italia
+        </text>
+    </g>
+</svg>
